@@ -21,13 +21,13 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Acerca de mi</a>
+                        <a class="nav-link" href="acerca-de-mi.html" target="_blank">Acerca de mi</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Trabajos</a>
+                        <a class="nav-link" href="trabajos.html" target="_blank">Trabajos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contacto</a>
+                        <a class="nav-link" href="contacto.html" target="_blank">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -47,8 +47,8 @@
                     con habilidades de resoluciòn de problemas y capacidades para aprender
                     ràpidamente nuevas tecnologìas.</p>
                 <div class="mb-5 pb-5">
-                    <button class="btn btn-lg btn-outline-info text-light me-4">Trabajos</button>
-                    <button class="btn btn-lg btn-info text-light">Contacto</button>
+                    <a class="btn btn-lg btn-outline-info text-light me-4" href="trabajos.html" target="_blank" role="button">Trabajos</a>
+                    <a class="btn btn-lg btn-info text-light" href="contacto.html" target="_blank" role="button">Contacto</a>
                 </div>
             </div>
         </div>
@@ -66,6 +66,7 @@
                     <li class="list-group">Emal: jesusbloise@gmail.com</li>
                     <li class="list-group">Direccion: Joaquín Rodríguez, Macul,
                         Chile.</li>
+                    </ul>
             </div>
             <div class="col-12 col-md-4">
                 <i class="fa-brands fa-studiovinari fa-3x my-3"></i>
@@ -97,50 +98,28 @@
     <section id="Mis-trabajos" class="my-5 p-5 text-bg-dark p-3">
 
         <h2 class="display-4 fw-bold text-center text-light mb-3">Mis trabajos</h2>
-
-        <div class="row">
-            <div class="col-12 col-sm-4 py-2">
-                <div class="card">
-                    <div class="image-top" style="background-image: url(assets/img/trabajo-flores.png)"></div>
-                    <div class="card-body">
-                        <h5 class="card-title fw-bold">Lange Page Flores</h5>
-                        <p class="card-text">
-                          En este trabajo tuvimos que replicamos una pagina de flores con HTML y CSS, la cual quedo asi como se ve en la foto y las separaciones entre producto tuvimos que usar los DIV, ya que no estamos usando las tablas por que hoy en dia se consideran mala practica.</p>
-                        <button type="button" class="btn btn-outline-info">
-                            Ver más
-                        </button>
-                    </div>
+        <section class="row container-fluid px-5 mt-3">
+            <div class="col-md-6 col-lg-4">
+                <img src="assets/img/trabajo-flores.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title mt-3">Lange Page Flores</h5>
+                  <p class="card-text mt-2">   En este trabajo tuvimos que replicamos una pagina de flores con HTML y CSS, la cual quedo asi como se ve en la foto y las separaciones entre producto tuvimos que usar los DIV, ya que no estamos usando las tablas por que hoy en dia se consideran mala practica.</p>
                 </div>
-            </div>
-            <div class="col-12 col-sm-4 py-2">
-                <div class="card">
-                    <div class="image-top" style="background-image: url(assets/img/trabajo-iguana.png)"></div>
-                    <div class="card-body">
-                        <h5 class="card-title fw-bold">Lange Page Iguana</h5>
-                        <p class="card-text">
-                          Aqui trabajamos con HTML, CSS y el atributo espacial fue display: flex, el cual nos permitio colocar un contenido al lado de otro, tambien no solouno sino varios. como en la parte de caracteristicas e imagenes.</p>
-                        <button type="button" class="btn btn-outline-info" href="assets/img/trabajo-iguana.png">
-                            Ver más
-                        </button>
-                    </div>
+              </div>
+              <div class="col-md-6 col-lg-4" >
+                <img src="assets/img/trabajo-iguana.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title mt-3">Lange Page Iguana</h5>
+                  <p class="card-text mt-2">Aqui trabajamos con HTML, CSS y el atributo espacial fue display: flex, el cual nos permitio colocar un contenido al lado de otro, tambien no solouno sino varios. como en la parte de caracteristicas e imagenes.</p>
                 </div>
-            </div>
-            <div class="col-12 col-sm-4 py-2">
-                <div class="card">
-                    <div class="image-top" style="background-image: url(assets/img/trabajo-cuppon.png)"></div>
-                    <div class="card-body">
-                        <h5 class="card-title fw-bold">Lange Page Cuppon</h5>
-                        <p class="card-text">
-                           Aqui trabajamos con BOOSTRAP es una libreria que nos ayuda con todo el desarrollo de la pagina web ya que tiene sus formatos establecidos y basicamente es como agarrar lo que le quieras colocar (forma, botonees, card, grilla, nav, etc.) copias y lo pegas en tu proyecto, asi evitamos tener tanto codigo memorizado. </p>
-                        <button type="button" class="btn btn-outline-info">
-                            Ver más
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </section>
+              </div>
+              <div class="col-md-6 col-lg-4" >
+                <img src="assets/img/trabajo-cuppon.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title mt-3">Lange Page Cuppon</h5>
+                  <p class="card-text mt-2"> Aqui trabajamos con BOOSTRAP es una libreria que nos ayuda con todo el desarrollo de la pagina web ya que tiene sus formatos establecidos y basicamente es como agarrar lo que le quieras colocar (forma, botonees, card, grilla, nav, etc.) copias y lo pegas en tu proyecto, asi evitamos tener tanto codigo memorizado.</p>
+              </div>
+          </section>
     <section id="Contacto" class="container my-5">
 
         <h2 class="display-4 fw-bold text-center my-4">Contáctame</h2>
