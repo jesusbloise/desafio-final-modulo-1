@@ -10,3 +10,12 @@
   h1 {
     text-align: center;
   }
+
+  /* Mis trabajos */
+
+#Mis-trabajos .image-top {
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
